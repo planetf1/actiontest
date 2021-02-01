@@ -1,2 +1,3 @@
 # actiontest
-Github action test repo
+
+This is a personal sandpit project - primarily to help in testing of github actions
