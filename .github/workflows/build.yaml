@@ -10,10 +10,6 @@ on:
 # Code checkout is small so low overhead, 
 # npm build is slow, so benefits from parallelism
 jobs:
-
-  build:
- jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
