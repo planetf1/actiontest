@@ -76,6 +76,9 @@
                     </goals>
                   </execution>
                 </executions>
+                <configuration>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
               </plugin>
               <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -92,6 +95,7 @@
                 <configuration>
                     <source>${project.java.version}</source>
                     <additionalOptions>-package</additionalOptions>
+                    <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
               </plugin>
               
