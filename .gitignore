@@ -1,0 +1,23 @@
+target*
+.classpath
+.project
+.settings
+.class
+.jar
+ target*
+ dependency-reduced-pom.xml
+ # IntelliJ
+ *.iml
+ **.iml
+ *.ipr
+ *.iws
+ .idea
+ venv
+
+ # Eclipse
+ .cache
+ .classpath
+ .project
+ .checkstyle
+ .externalToolBuilders
+ maven-eclipse.xml
