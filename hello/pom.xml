@@ -23,7 +23,7 @@
 
 
     <parent>
-        <groupId>org.planetf1.sample.actiontest</groupId>
+        <groupId>ci.test.greeting</groupId>
         <artifactId>greeting</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

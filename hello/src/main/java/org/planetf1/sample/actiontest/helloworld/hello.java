@@ -6,8 +6,23 @@ package org.planetf1.sample.actiontest.helloworld;
 * 
 */
 
-
 class HelloWorld {
+
+    /**
+     * secret number to save
+     */
+    private int i;
+
+    /**
+     * setter for i
+     * 
+     * @param value to set
+     * @since 1.0
+     */
+    public void seti(int value) {
+        i = value;
+    }
+
 /**
  * Just a main
  * @param args String[] Command line args 
