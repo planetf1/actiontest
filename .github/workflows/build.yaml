@@ -22,7 +22,7 @@ jobs:
           java-version: 11
           server-id: ossrh
       - name: Publish package
-        run: mvn --batch-mode deploy 
+        run: mvn --batch-mode -DuseGitHub deploy 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Archive
