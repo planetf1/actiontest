@@ -22,7 +22,7 @@ jobs:
       - name: debug
         run: cat /home/runner/.m2/settings.xml && env && echo ${{ secrets.OSSRH_USERNAME }} && echo ${{ secrets.OSSRH_TOKEN }}
       - name: Build with Maven
-        run: mvn --batch-mode -DuseMavenCentral deploy
+        run: mvn --batch-mode -DuseMavenCentral clean deploy
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
