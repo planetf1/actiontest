@@ -19,6 +19,8 @@ jobs:
           server-password: MAVEN_PASSWORD
           gpg-private-key: ${{ secrets.OSSRH_GPG_PRIVATE_KEY }}
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
+      - name: debug
+        run: cat settings.xml
       - name: Build with Maven
         run: mvn --batch-mode -DuseMavenCentral deploy
         env:
