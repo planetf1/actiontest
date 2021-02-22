@@ -17,13 +17,13 @@
         GoodBye World     
     </description>
 
-    <artifactId>goodbye</artifactId>
+    <artifactId>ci-test-goodbye</artifactId>
 
     <packaging>jar</packaging>
 
     <parent>
         <groupId>org.odpi.egeria</groupId>
-        <artifactId>ci.test.greeting</artifactId>
+        <artifactId>ci-test</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

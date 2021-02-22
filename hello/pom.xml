@@ -17,14 +17,14 @@
         Hello World     
     </description>
 
-    <artifactId>hello</artifactId>
+    <artifactId>ci-test-hello</artifactId>
 
     <packaging>jar</packaging>
 
 
     <parent>
-        <groupId>ci.test.greeting</groupId>
-        <artifactId>greeting</artifactId>
+        <groupId>org.odpi.egeria</groupId>
+        <artifactId>ci-test</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

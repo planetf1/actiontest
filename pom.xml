@@ -16,8 +16,8 @@
         A test project for working through options on build and github actions
     </description>
 
-    <groupId>ci.test.greeting</groupId>
-    <artifactId>greeting</artifactId>
+    <groupId>org.odpi.egeria</groupId>
+    <artifactId>ci-test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
@@ -103,7 +103,6 @@
         </plugins>
     </build>
 
-    # TODO: Reports fail on aggregate javadocs as none in parent.. needs fixing ...
     <reporting>
 
         <plugins>
