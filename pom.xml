@@ -24,6 +24,19 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <id>planetf1</id>
+            <name>Nigel Jones</name>
+            <email>nigel.l.jones@gmail.com</email>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>+0</timezone>
+        </developer>
+    </developers>
+
     <name>Sample test project</name>
     <description>
         A test project for working through options on build and github actions
