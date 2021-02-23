@@ -18,6 +18,7 @@
     </description>
 
     <artifactId>ci-test-hello</artifactId>
+    
 
     <packaging>jar</packaging>
 

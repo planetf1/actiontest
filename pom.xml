@@ -5,11 +5,24 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <url>http://github.com/planetf1/actiontest</url>
+    
     <scm>
         <connection>scm:git:git://github.com/planetf1/actiontest.git</connection>
         <developerConnection>scm:git:ssh://github.com/planetf1/actiontest.git</developerConnection>
         <url>http://github.com/planetf1/actiontest/tree/master</url>
     </scm>
+    
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+        <license>
+            <name>Creative Commons Attribution 4.0 International (CC BY 4.0)</name>
+            <url>https://creativecommons.org/licenses/by/4.0</url>
+        </license>
+    </licenses>
 
     <name>Sample test project</name>
     <description>
