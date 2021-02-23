@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <url>http://github.com/planetf1/actiontest</url>
-    
+
     <scm>
         <connection>scm:git:git://github.com/planetf1/actiontest.git</connection>
         <developerConnection>scm:git:ssh://github.com/planetf1/actiontest.git</developerConnection>
