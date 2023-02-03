@@ -1,0 +1,16 @@
+
+plugins {
+    id 'java'
+}
+repositories {
+    mavenCentral()
+}
+ext {
+    egeriaversion='3.15'
+}
+dependencies {
+        compileOnly "org.odpi.egeria:open-connector-framework:${egeriaversion}"
+
+}
+
+project.version=0.1

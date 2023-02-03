@@ -1,0 +1,8 @@
+-classpath '/Users/jonesn/IdeaProjects/actiontest/goodbye/build/classes/java/main:/Users/jonesn/IdeaProjects/actiontest/goodbye/build/resources/main'
+-d '/Users/jonesn/IdeaProjects/actiontest/goodbye/build/docs/javadoc'
+-doctitle 'ci-test-goodbye 1.0 API'
+-encoding 'UTF-8'
+-notimestamp 
+-quiet 
+-windowtitle 'ci-test-goodbye 1.0 API'
+'/Users/jonesn/IdeaProjects/actiontest/goodbye/src/main/java/org/planetf1/sample/actiontest/goodbyeworld/goodbye.java'
