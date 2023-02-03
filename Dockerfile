@@ -1,3 +1,5 @@
 # trivial demo to test actions
-FROM debian:buster-slim
+ARG EGERIA_BASE_IMAGE
+ARG EGERIA_VERSION
+FROM ${EGERIA_BASE_IMAGE}:${EGERIA_VERSION}
 RUN echo "hello world"
