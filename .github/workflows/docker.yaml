@@ -49,7 +49,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: planetf1/testcontainer:${{ env.VERSION }}, planetf1/testcontainer:latest, docker.io/planetf1/testcontainer:${{ env.VERSION }}, docker.io/planetf1/testcontainer:latest
+          tags: planetf1/testcontainer:${{ env.CONNECTOR_VERSION }}, planetf1/testcontainer:latest, docker.io/planetf1/testcontainer:${{ env.CONNECTOR_VERSION }}, docker.io/planetf1/testcontainer:latest
           platforms: linux/amd64,linux/arm64
           build-args: |
             EGERIA_BASE_IMAGE=${{env.EGERIA_BASE_IMAGE}}
